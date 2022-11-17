@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './Auth.css';
 import AuthContext from '../context/auth-context';
 
-class Auth extends Component {
+class AuthPage extends Component {
   state = {
     isLogin: true
   };
@@ -56,7 +56,7 @@ class Auth extends Component {
       };
     }
 
-    fetch('http://localhost:4000/graphql', {
+    fetch('http://localhost:8000/graphql', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
@@ -105,4 +105,4 @@ class Auth extends Component {
   }
 }
 
-export default Auth;
+export default AuthPage;

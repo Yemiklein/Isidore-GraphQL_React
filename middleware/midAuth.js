@@ -13,7 +13,7 @@ module.exports = (req, res, next) => {
   }
   let decodedToken;
   try {
-    decodedToken = jwt.verify(token, 'asirikogbodotu');
+    decodedToken = jwt.verify(token, 'supersecret');
   } catch (err) {
     req.isAuth = false;
     return next();
@@ -22,7 +22,7 @@ module.exports = (req, res, next) => {
     req.isAuth = false;
     return next();
   }
-  req.isAuth = true;
+  req.isAuth = false;
   req.userId = decodedToken.userId;
   next();
 };

@@ -35,11 +35,11 @@ module.exports = {
     }
     const token = jwt.sign(
       { userId: user.id, email: user.email },
-      'asirikogbodotu',
+      'supersecret',
       {
-        expiresIn: '18h'
+        expiresIn: '1h'
       }
     );
-    return { userId: user.id, token: token, tokenExpiration: 18 };
+    return { userId: user.id, token: token, tokenExpiration: 1 };
   }
 };

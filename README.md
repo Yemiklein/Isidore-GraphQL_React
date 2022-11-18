@@ -15,7 +15,8 @@ Adeyemi Raji
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![yemolee](https://user-images.githubusercontent.com/100921034/202820417-fea84af5-7816-4bc2-b14b-b887cec74759.jpeg)
+![Screenshot 2022-11-19 at 00 10 20](https://user-images.githubusercontent.com/100921034/202820546-d465af6e-b222-4e05-bbd1-b68f848c5000.png)
+
 
 
 

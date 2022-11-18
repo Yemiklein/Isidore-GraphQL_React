@@ -80,7 +80,7 @@ const FormContainer = () => {
                 </div>
             </div>
 
-            <button className="secondary-btn" onClick={create}>Create</button>
+            <button className="secondary-btn" onClick={create}>Create Event</button>
             {error && <p className="error-message">{error}</p>}
 
         </form>

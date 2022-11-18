@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header-flex">
-                Book Events
+                <h1>EventsPlus</h1>
                 {!token && !loading && error ?
                     (<div className="btn-flex">
                         <Link to="/login"><button className="primary-btn">Log In</button></Link>
@@ -26,7 +26,7 @@ const Header = () => {
                             <p>{data.user.email.split('@')[0]}</p>
                             <button className="primary-btn" onClick={logout}>Log Out</button>
                         </div>
-                    ) : <p>Not Looged In!</p>
+                    ) : <p>Not Logged In!</p>
                 }
 
             </div>

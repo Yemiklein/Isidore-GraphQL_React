@@ -1,7 +1,9 @@
 .header{
     padding: 10px 4px;
+    justify-content: center;
     background-color: #2192FF;
     color: #fff;
+    height: 40px;
 }
 
 .header-flex,
@@ -73,7 +75,7 @@
     top: 0;
     right: 0;
     margin: 12px;
-    background-color: #5900ff;
+    background-color: #54B435;
     color: #fff;
     display: flex;
     align-items: center;

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+// import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Events from './pages/Events'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -44,6 +45,7 @@ const App = () => {
             <div>
                 <Router>
                     <Header />
+                    <h1>zeh</h1>
                     <Switch>
                         {token && <Redirect from="/login" to="/" exact />}
                         {!token && <Route path="/login" component={Login} />}

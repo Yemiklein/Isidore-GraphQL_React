@@ -6,7 +6,7 @@ const BookingSchema = new Schema({
     event: { type: Schema.Types.ObjectId },
     user: { type: Schema.Types.ObjectId }
     }, 
-    // { timestamps: true }
+    { timestamps: true }
 )
 
 module.exports = new mongoose.model('Booking', BookingSchema)

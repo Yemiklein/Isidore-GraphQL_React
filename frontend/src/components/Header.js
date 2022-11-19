@@ -23,7 +23,7 @@ const Header = () => {
                     : loading && !error ? <p>Loading...</p>
                     : !loading && data !== null ?(
                         <div className="user-details-flex">
-                            <p>{data.user.email.split('@')[0]}</p>
+                            <p>{data.user.email.split('@')[1]}</p>
                             <button className="primary-btn" onClick={logout}>Log Out</button>
                         </div>
                     ) : <p>Not Logged In!</p>
